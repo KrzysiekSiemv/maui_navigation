@@ -14,10 +14,12 @@ public class DetailedViewModel
     {
         SelectedUser = user;
 
+        // Przypisanie metod asynchronicznych do poleceń
         EditDescriptionCommand = new Command(async () => await EditDescription());
         EditEmailCommand = new Command(async () => await EditEmail());
     }
 
+    // Ze względu na użycie DisplayPropmtAsync, metoda musi być asynchroniczna
     private async Task EditDescription()
     {
         string result = await Shell.Current.DisplayPromptAsync(
@@ -43,8 +45,7 @@ public class DetailedViewModel
             SelectedUser.Email
         );
 
-        if (!string.IsNullOrWhiteSpace(result))
-        {
+        if (!string.IsNullOrWhiteSpace(result)) {
             SelectedUser.Email = result;
         }
     }
