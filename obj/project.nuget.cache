@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/rp2USrypgo=",
+  "dgSpecHash": "SGcIevuCMHs=",
   "success": true,
-  "projectFilePath": "/Users/krzysiek/Projekty/SZKOLNE/MAUI/Navigation Between/Navigation Between.csproj",
+  "projectFilePath": "/Users/krzysiek/Projekty/Navigation Between/Navigation Between.csproj",
   "expectedPackageFiles": [
     "/Users/krzysiek/.nuget/packages/dotnetmeteor.hotreload.plugin/3.3.0/dotnetmeteor.hotreload.plugin.3.3.0.nupkg.sha512",
     "/Users/krzysiek/.nuget/packages/googlegson/2.11.0.3/googlegson.2.11.0.3.nupkg.sha512",

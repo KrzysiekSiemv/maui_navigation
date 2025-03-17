@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/krzysiek/Projekty/SZKOLNE/MAUI/Navigation Between/Navigation Between.csproj": {}
+    "/Users/krzysiek/Projekty/Navigation Between/Navigation Between.csproj": {}
   },
   "projects": {
-    "/Users/krzysiek/Projekty/SZKOLNE/MAUI/Navigation Between/Navigation Between.csproj": {
+    "/Users/krzysiek/Projekty/Navigation Between/Navigation Between.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/krzysiek/Projekty/SZKOLNE/MAUI/Navigation Between/Navigation Between.csproj",
+        "projectUniqueName": "/Users/krzysiek/Projekty/Navigation Between/Navigation Between.csproj",
         "projectName": "Navigation Between",
-        "projectPath": "/Users/krzysiek/Projekty/SZKOLNE/MAUI/Navigation Between/Navigation Between.csproj",
+        "projectPath": "/Users/krzysiek/Projekty/Navigation Between/Navigation Between.csproj",
         "packagesPath": "/Users/krzysiek/.nuget/packages/",
-        "outputPath": "/Users/krzysiek/Projekty/SZKOLNE/MAUI/Navigation Between/obj/",
+        "outputPath": "/Users/krzysiek/Projekty/Navigation Between/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

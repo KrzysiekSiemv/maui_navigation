@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navigation_Between.View.MainPage"
-             xmlns:local="clr-namespace:Navigation_Between.ViewModel">
+             x:Name="MainPage">
 
     <ScrollView>
         <VerticalStackLayout
@@ -13,7 +13,12 @@
                     <DataTemplate>
                         <Label Text="{Binding Name}" FontSize="Large">
                             <Label.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainViewModel}}, Path=SelectUserCommand}" CommandParameter="{Binding}" />
+                                <!-- 
+                                    Poprzednia wersja zapisu wyglądała następująco:
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainViewModel}}, Path=SelectUserCommand}" CommandParameter="{Binding}" />
+                                    Ale ta zmiana wymaga dodania x:Name="MainPage" w ContentPage!
+                                -->
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference MainPage}, Path=BindingContext.SelectUserCommand}" CommandParameter="{Binding}" />
                             </Label.GestureRecognizers>
                         </Label>
                     </DataTemplate>

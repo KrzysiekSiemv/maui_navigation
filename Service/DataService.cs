@@ -16,6 +16,8 @@ public class DataService {
         };
     }    
 
+    // Dodawanie czy usuwanie elementów do listy w ObservableCollection NIE WYMAGA INotifyPropertyChanged,
+    // Stosujemy to w momencie, kiedy modyfikujemy wlaściwość naszego elementu, np.: Imie osoby o ID nr. 1
     public ObservableCollection<User> GetUsers() => users;
 
     public void AddUser(User user) {

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Navigation Between")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+582c0f69ab5586ed7e623fc5fc4298d259ef9782")]
 [assembly: System.Reflection.AssemblyProductAttribute("Navigation Between")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Navigation Between")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

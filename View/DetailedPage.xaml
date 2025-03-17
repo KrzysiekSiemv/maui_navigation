@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Navigation_Between.View.DetailedPage">
-    <VerticalStackLayout>
-        <Label Text="{Binding Name}" FontSize="24" FontAttributes="Bold" />
-        <Label Text="{Binding Description}" FontSize="18" FontAttributes="Italic" />
+
+    <VerticalStackLayout Padding="20">
+        <Label Text="Nazwa:" FontSize="20" />
+        <Label Text="{Binding SelectedUser.Name}" FontSize="24" FontAttributes="Bold" />
+        <Label Text="Opis:" FontSize="20" />
+        <Label Text="{Binding SelectedUser.Description}" FontSize="18" />
+        <Button Text="Edytuj opis" Command="{Binding EditDescriptionCommand}" />
+        <Label Text="E-mail:" FontSize="20" />
+        <Label Text="{Binding SelectedUser.Email}" FontSize="18" />
+        <Button Text="Edytuj e-mail" Command="{Binding EditEmailCommand}" />
     </VerticalStackLayout>
 </ContentPage>
